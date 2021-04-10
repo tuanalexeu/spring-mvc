@@ -23,11 +23,6 @@ public class EmployeeController {
 		return "ProductForm";
 	}
 
-	@RequestMapping(value = "/send-employee")
-	public String sendEmployee() {
-		return null;
-	}
-
 	@RequestMapping(value="/save-employee")
 	public String saveEmployee(Product product, BindingResult bindingResult,
 							   Model model) {
